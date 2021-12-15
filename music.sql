@@ -13,9 +13,9 @@ CREATE TABLE songs
   title TEXT NOT NULL,
   duration_in_seconds INTEGER NOT NULL,
   release_date DATE NOT NULL,
-  artists TEXT[] NOT NULL,
+  artists TEXT NOT NULL,
   album TEXT NOT NULL,
-  producers TEXT[] NOT NULL
+  producers TEXT NOT NULL
 );
 
 INSERT INTO songs
